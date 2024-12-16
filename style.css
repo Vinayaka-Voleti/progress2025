@@ -1,0 +1,69 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    margin-bottom: 10px;
+}
+
+.progress-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.name-section {
+    margin: 0 20px;
+    text-align: center;
+}
+
+.progress-bar {
+    width: 200px;
+    height: 25px;
+    background-color: #333;
+    border: 2px solid white;
+    position: relative;
+    margin: 10px auto;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.progress-fill {
+    height: 100%;
+    background-color: limegreen;
+    width: 0; /* Initial progress set to 0% */
+    transition: width 0.3s ease-in-out;
+}
+
+.topics-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.topics-column {
+    text-align: left;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    margin: 8px 0;
+}
+
+label {
+    cursor: pointer;
+}
